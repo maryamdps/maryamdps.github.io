@@ -125,6 +125,16 @@ h1 span{color:#111}
   .pitch-slide { flex-basis: 94vw; }
   .pitch-slide img { aspect-ratio: 16 / 9; }
 }
+
+/* Latest sizing adjustments */
+h1{font-size:clamp(2.8rem,6vw,5.4rem)}
+.pitch-track{grid-auto-columns:min(900px,92vw);gap:24px}
+.pitch-track .pitch-slide{width:min(900px,92vw)}
+.pitch-track .pitch-slide img{width:100%;height:auto;max-height:none;aspect-ratio:16/9;object-fit:contain}
+@media(max-width:600px){
+ .pitch-track{grid-auto-columns:94vw}
+ .pitch-track .pitch-slide{width:94vw}
+}
 </style>
 </head>
 <body>
