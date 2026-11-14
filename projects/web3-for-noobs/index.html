@@ -40,6 +40,13 @@
 @media(max-width:520px){.website-showcase{grid-template-columns:1fr}.website-shot img{height:auto;max-height:420px}}
 
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Shared project-section heading rhythm */
+.section-head{grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr)!important;gap:clamp(24px,4.5vw,48px)!important;align-items:center!important;margin-bottom:40px!important}
+.section-head h2{margin:10px 0 0!important;line-height:1.04!important;letter-spacing:-.055em!important}
+.section-head .copy,.section-head>p{align-self:center;max-width:720px;margin:0!important}
+.section-head .copy p,.section-head>p{margin:0!important;line-height:1.7}
+@media(max-width:740px){.section-head{grid-template-columns:1fr!important;gap:14px!important;align-items:start!important;margin-bottom:28px!important}.section-head .copy,.section-head>p{max-width:100%}}
 </style>
 </head>
 <body>
